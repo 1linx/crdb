@@ -1,0 +1,18 @@
+@import "_reset.scss";
+@import "_normalize.scss";
+@import "_variables.scss";
+
+body {
+  background-color: $backgroundColor;
+  padding: 0 2%;
+}
+
+h1, h2 {
+  font-family: $font-title;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+p {
+  font-family: $font-main;
+}
